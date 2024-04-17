@@ -1,0 +1,37 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.header {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
